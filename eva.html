@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>옐로우플레이: 획득 값 분석</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="include/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+         <div id="navigation">
+            <ul>
+                <li><a href="index.html">개요</a></li>
+
+                <li><a href="task.html">작업 보고서</a></li>
+
+                <li><a href="resource.html">리소스 보고서</a></li>
+                
+                <li><a class="active" href="eva.html">획득 값 분석</a></li>
+
+                <li><a href="gantt.html">간트 차트</a></li>
+
+                <li><a href="timeline.html">리소스 타임라인</a></li>
+                
+                <li><a href="montecarlo.html">Monte Carlo 시뮬레이션</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <h1>옐로우플레이: <span class="subtitle">획득 값 분석</span></h1>
+
+            <div class="tablewrap">
+            <table class="basic">
+
+	<tr>
+		<th>작업</th>
+		<th>계획된 값</th>
+		<th>획득 값</th>
+		<th>실제 비용</th>
+		<th>비용 편차</th>
+		<th>일정 편차</th>
+		<th>완료 시 예상</th>
+		<th>완료 시 예산</th>
+		<th>완료 시 편차</th>
+		<th>CPI</th>
+		<th>SPI</th>
+		<th>CV %</th>
+		<th>SV %</th>
+		<th>TCPI</th>
+		
+	</tr>
+			
+	<tr>
+		<td style="padding-left: 18px;" class="wrap">1) 기획</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.1) 아이디어회의</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.2) 네이밍 결정</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.3) 기획안 초안</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.4) 기획안 수정</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.5) 기획완료</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.6) 기능정의서</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.7) 사이트 맵</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.8) 스토리 보드</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">1.9) 스토리 보드 QA</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 18px;" class="wrap">2) 디자인</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.1) 자료수집</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.2) 로고 디자인</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.3) 티저 사이트 디자인</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.4) 1차 시안</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.5) 2차 시안</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.6) 시안 수정</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.7) 시안 완료</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.8) 디자인 가이드</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">2.9) 디자인 완료</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 18px;" class="wrap">3) 퍼블리싱</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">3.1) 폰트 세팅</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">3.2) 티저 사이트</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 18px;" class="wrap">4) 개발</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">4.1) 티저 사이트</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 18px;" class="wrap">5) 배포</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 28px;" class="wrap">5.1) 배포완료</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	
+</table>
+            </div>
+            <div id="key">
+	            <h4>키</h4>
+	            <ul>
+		            <li>계획된 값 - BCWS(예약된 작업의 예산 비용)</li>
+		            <li>획득 값 - BCWP(수행된 작업의 예산 비용)</li>
+		            <li>CPI - 비용 성능 지수</li>
+		            <li>SPI - 일정 성능 지수</li>
+		            <li>CV% - 비용 편차 백분율</li>
+		            <li>SV% - 일정 편차 백분율</li>
+		            <li>TCPI - 완료 성능 지수</li>
+	            </ul>    
+            </div>
+			</div> 
+            <p class="footer">내보낸 날짜: 2018. 12. 30.</p>
+        </div>
+    </div>
+</body>
+</html>
